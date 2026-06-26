@@ -1,0 +1,12 @@
+name: Portfolio Action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 22f3000482@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
